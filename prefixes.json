@@ -1,12 +1,12 @@
 {
   "prefixes": [
     "openrouter/z-ai/glm-5",
-    "openrouter/moonshotai/kimi-k",
-    "openrouter/qwen/qwen3.7",
-    "openrouter/qwen/qwen3.8",
-    "openrouter/minimax/minimax-m",
-    "openrouter/x-ai/grok-4.",
-    "openrouter/deepseek/deepseek-v4-"
+    "moonshot/kimi-k",
+    "dashscope/qwen3.7",
+    "dashscope/qwen3.8",
+    "novita/minimax/minimax-m",
+    "xai/grok-4.",
+    "novita/deepseek/deepseek-v4-"
   ],
   "alwaysPrefixes": [
     "claude-",
