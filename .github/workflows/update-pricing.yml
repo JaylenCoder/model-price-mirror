@@ -1,0 +1,42 @@
+name: Update pricing
+
+# 每 30 分钟拉取上游价格并提交产物，使 raw.githubusercontent.com 直链可用
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# 防止上一次运行未结束时重叠执行
+concurrency:
+  group: update-pricing
+  cancel-in-progress: true
+
+jobs:
+  update-pricing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 生成价格源
+        run: node build-pricing.mjs
+
+      - name: 提交并推送产物
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add litellm_model_prices.json litellm_model_prices.sha256
+          if git diff --cached --quiet; then
+            echo "价格无变化，跳过提交"
+          else
+            git commit -m "chore: 更新 litellm 价格源"
+            git push
+          fi

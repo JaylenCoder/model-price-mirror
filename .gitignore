@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# 本地调试数据（上游全量镜像，非交付物；如需提交可删除此行）
+data/
+
+# 生成过程的临时文件
+.litellm_model_prices.*.tmp
