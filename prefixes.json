@@ -6,7 +6,8 @@
     "dashscope/qwen3.8",
     "novita/minimax/minimax-m",
     "xai/grok-4.",
-    "novita/deepseek/deepseek-v4-"
+    "novita/deepseek/deepseek-v4-",
+    "novita/xiaomimimo/mimo-v2.5"
   ],
   "alwaysPrefixes": [
     "claude-",
