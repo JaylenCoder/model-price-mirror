@@ -141,13 +141,13 @@
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "supports_vision": true,
-    "supports_web_search": false
+    "supports_web_search": true
   },
   "claude-fable-5-1": {
     "cache_creation_input_token_cost": 0.0000125,
     "cache_read_input_token_cost": 2.5e-7,
     "cloudprice_model_id": "anthropic-claude-5-1-fable",
-    "deprecation_date": "2027-09-01",
+    "deprecation_date": "2027-03-01",
     "input_cost_per_token": 0.00001,
     "litellm_provider": "anthropic",
     "max_input_tokens": 1000000,
@@ -219,6 +219,30 @@
     "cache_creation_input_token_cost": 0.0000125,
     "cache_read_input_token_cost": 0.000001,
     "cloudprice_model_id": "anthropic-claude-5-mythos",
+    "input_cost_per_token": 0.00001,
+    "litellm_provider": "anthropic",
+    "max_input_tokens": 1000000,
+    "max_output_tokens": 128000,
+    "max_tokens": 128000,
+    "mode": "chat",
+    "output_cost_per_token": 0.00005,
+    "supports_audio_input": false,
+    "supports_audio_output": false,
+    "supports_function_calling": true,
+    "supports_parallel_function_calling": false,
+    "supports_prompt_caching": true,
+    "supports_reasoning": true,
+    "supports_response_schema": true,
+    "supports_system_messages": true,
+    "supports_tool_choice": true,
+    "supports_vision": true,
+    "supports_web_search": false
+  },
+  "claude-mythos-5-1": {
+    "cache_creation_input_token_cost": 0.0000125,
+    "cache_read_input_token_cost": 2.5e-7,
+    "cloudprice_model_id": "anthropic-claude-5-1-mythos",
+    "deprecation_date": "2027-09-01",
     "input_cost_per_token": 0.00001,
     "litellm_provider": "anthropic",
     "max_input_tokens": 1000000,
@@ -499,7 +523,7 @@
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "supports_vision": true,
-    "supports_web_search": false
+    "supports_web_search": true
   },
   "claude-opus-5": {
     "cache_creation_input_token_cost": 0.00000625,
@@ -523,7 +547,7 @@
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "supports_vision": true,
-    "supports_web_search": false
+    "supports_web_search": true
   },
   "claude-sonnet-4-20250514": {
     "cache_creation_input_token_cost": 0.00000375,
@@ -643,7 +667,7 @@
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "supports_vision": true,
-    "supports_web_search": false
+    "supports_web_search": true
   },
   "claude-sonnet-5": {
     "cache_creation_input_token_cost": 0.0000025,
@@ -667,7 +691,7 @@
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "supports_vision": true,
-    "supports_web_search": false
+    "supports_web_search": true
   },
   "deepseek-v4-flash": {
     "cache_read_input_token_cost": 2.8e-8,
@@ -873,6 +897,28 @@
     "supports_vision": false,
     "supports_web_search": true
   },
+  "glm-5.2:free": {
+    "cache_read_input_token_cost": 1.932e-7,
+    "cloudprice_model_id": "zhipu-glm-5-2",
+    "input_cost_per_token": 9.66e-7,
+    "litellm_provider": "openrouter",
+    "max_input_tokens": 1048576,
+    "max_output_tokens": 262144,
+    "max_tokens": 262144,
+    "mode": "chat",
+    "output_cost_per_token": 0.0000030360000000000002,
+    "supports_audio_input": false,
+    "supports_audio_output": false,
+    "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_prompt_caching": true,
+    "supports_reasoning": true,
+    "supports_response_schema": true,
+    "supports_system_messages": true,
+    "supports_tool_choice": true,
+    "supports_vision": false,
+    "supports_web_search": true
+  },
   "glm-5.3": {
     "cache_read_input_token_cost": 1.4e-7,
     "cloudprice_model_id": "zhipu-glm-5-3",
@@ -893,8 +939,8 @@
     "supports_response_schema": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
-    "supports_vision": false,
-    "supports_web_search": false
+    "supports_vision": true,
+    "supports_web_search": true
   },
   "glm-5.3-flash": {
     "cache_read_input_token_cost": 1.5e-8,
@@ -917,7 +963,7 @@
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "supports_vision": true,
-    "supports_web_search": false
+    "supports_web_search": true
   },
   "glm-5v-turbo": {
     "cache_read_input_token_cost": 2.4e-7,
@@ -1345,7 +1391,7 @@
   "gpt-4.1-nano": {
     "cache_read_input_token_cost": 2.5000000000000002e-8,
     "cloudprice_model_id": "openai-gpt-4-1-nano",
-    "deprecation_date": "2026-10-14",
+    "deprecation_date": "2026-10-23",
     "input_cost_per_token": 1.0000000000000001e-7,
     "litellm_provider": "openai",
     "max_input_tokens": 1047576,
@@ -1368,7 +1414,7 @@
   "gpt-4.1-nano-2025-04-14": {
     "cache_read_input_token_cost": 2.5000000000000002e-8,
     "cloudprice_model_id": "openai-gpt-4-1-nano",
-    "deprecation_date": "2026-10-14",
+    "deprecation_date": "2026-10-23",
     "input_cost_per_token": 1.0000000000000001e-7,
     "litellm_provider": "openai",
     "max_input_tokens": 1047576,
@@ -2404,7 +2450,7 @@
   "gpt-5.1-codex-max": {
     "cache_read_input_token_cost": 1.25e-7,
     "cloudprice_model_id": "openai-gpt-5-1-codex-max",
-    "deprecation_date": "2026-07-23",
+    "deprecation_date": "2026-07-16",
     "input_cost_per_token": 0.00000125,
     "litellm_provider": "openai",
     "max_input_tokens": 400000,
@@ -2519,7 +2565,7 @@
   "gpt-5.2-codex": {
     "cache_read_input_token_cost": 1.75e-7,
     "cloudprice_model_id": "openai-gpt-5-2-codex",
-    "deprecation_date": "2026-07-23",
+    "deprecation_date": "2026-07-16",
     "input_cost_per_token": 0.00000175,
     "litellm_provider": "openai",
     "max_input_tokens": 400000,
@@ -3174,6 +3220,52 @@
     "supports_vision": false,
     "supports_web_search": false
   },
+  "gpt-daybreak-blue-latest": {
+    "cache_creation_input_token_cost": 0.000005,
+    "cache_read_input_token_cost": 4.0000000000000003e-7,
+    "cloudprice_model_id": "openai-gpt-daybreak-blue",
+    "input_cost_per_token": 0.000004,
+    "litellm_provider": "openai",
+    "max_input_tokens": 1050000,
+    "max_output_tokens": 128000,
+    "max_tokens": 128000,
+    "mode": "chat",
+    "output_cost_per_token": 0.00002,
+    "supports_audio_input": false,
+    "supports_audio_output": false,
+    "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_prompt_caching": true,
+    "supports_reasoning": true,
+    "supports_response_schema": true,
+    "supports_system_messages": true,
+    "supports_tool_choice": true,
+    "supports_vision": true,
+    "supports_web_search": true
+  },
+  "gpt-daybreak-red-latest": {
+    "cache_creation_input_token_cost": 0.000015625,
+    "cache_read_input_token_cost": 0.00000125,
+    "cloudprice_model_id": "openai-gpt-daybreak-red",
+    "input_cost_per_token": 0.0000125,
+    "litellm_provider": "openai",
+    "max_input_tokens": 400000,
+    "max_output_tokens": 128000,
+    "max_tokens": 128000,
+    "mode": "chat",
+    "output_cost_per_token": 0.000075,
+    "supports_audio_input": false,
+    "supports_audio_output": false,
+    "supports_function_calling": true,
+    "supports_parallel_function_calling": true,
+    "supports_prompt_caching": true,
+    "supports_reasoning": true,
+    "supports_response_schema": true,
+    "supports_system_messages": true,
+    "supports_tool_choice": true,
+    "supports_vision": true,
+    "supports_web_search": true
+  },
   "gpt-image-1": {
     "cache_read_input_token_cost": 0.00000125,
     "cloudprice_model_id": "openai-gpt-image-1",
@@ -3341,6 +3433,7 @@
   "gpt-realtime-2": {
     "cache_read_input_token_cost": 4.0000000000000003e-7,
     "cloudprice_model_id": "openai-gpt-realtime-2",
+    "deprecation_date": "2026-08-31",
     "input_cost_per_token": 0.000004,
     "litellm_provider": "openai",
     "max_input_tokens": 128000,
@@ -3363,6 +3456,7 @@
   "gpt-realtime-2.1": {
     "cache_read_input_token_cost": 4.0000000000000003e-7,
     "cloudprice_model_id": "openai-gpt-realtime-2-1",
+    "deprecation_date": "2027-06-25",
     "input_cost_per_token": 0.000004,
     "litellm_provider": "openai",
     "max_input_tokens": 128000,
@@ -3385,6 +3479,7 @@
   "gpt-realtime-2.1-mini": {
     "cache_read_input_token_cost": 6e-8,
     "cloudprice_model_id": "openai-gpt-realtime-2-1-mini",
+    "deprecation_date": "2027-06-25",
     "input_cost_per_token": 6e-7,
     "litellm_provider": "openai",
     "max_input_tokens": 128000,
@@ -4276,6 +4371,27 @@
     "supports_audio_output": false,
     "supports_function_calling": true,
     "supports_parallel_function_calling": true,
+    "supports_prompt_caching": true,
+    "supports_reasoning": true,
+    "supports_response_schema": true,
+    "supports_system_messages": true,
+    "supports_tool_choice": true,
+    "supports_vision": true,
+    "supports_web_search": false
+  },
+  "qwen3.7-flash": {
+    "cloudprice_model_id": "alibaba-qwen3-7-flash",
+    "input_cost_per_token": 3e-8,
+    "litellm_provider": "dashscope",
+    "max_input_tokens": 1000000,
+    "max_output_tokens": 65536,
+    "max_tokens": 65536,
+    "mode": "chat",
+    "output_cost_per_token": 1.3e-7,
+    "supports_audio_input": false,
+    "supports_audio_output": false,
+    "supports_function_calling": true,
+    "supports_parallel_function_calling": false,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
     "supports_response_schema": true,
