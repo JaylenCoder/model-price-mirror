@@ -926,16 +926,16 @@
     "supports_web_search": false
   },
   "glm-5.1": {
-    "cache_read_input_token_cost": 1.794e-7,
+    "cache_read_input_token_cost": 2.6e-7,
     "cloudprice_model_id": "zhipu-glm-5-1",
     "deprecation_date": "2026-07-10",
-    "input_cost_per_token": 9.66e-7,
+    "input_cost_per_token": 0.0000014,
     "litellm_provider": "openrouter",
     "max_input_tokens": 204800,
     "max_output_tokens": 202752,
     "max_tokens": 202752,
     "mode": "chat",
-    "output_cost_per_token": 0.0000030360000000000002,
+    "output_cost_per_token": 0.0000044,
     "supports_audio_input": false,
     "supports_audio_output": false,
     "supports_function_calling": true,
@@ -949,10 +949,10 @@
     "supports_web_search": false
   },
   "glm-5.2": {
-    "cache_read_input_token_cost": 3.3000000000000004e-8,
+    "cache_read_input_token_cost": 1.69e-8,
     "cloudprice_model_id": "zhipu-glm-5-2",
     "deprecation_date": "2026-09-25",
-    "input_cost_per_token": 3.41e-8,
+    "input_cost_per_token": 1.7899999999999998e-8,
     "litellm_provider": "openrouter",
     "max_input_tokens": 1049000,
     "max_output_tokens": 943718,
@@ -972,10 +972,10 @@
     "supports_web_search": true
   },
   "glm-5.2:batch": {
-    "cache_read_input_token_cost": 3.3000000000000004e-8,
+    "cache_read_input_token_cost": 1.69e-8,
     "cloudprice_model_id": "zhipu-glm-5-2",
     "deprecation_date": "2026-09-25",
-    "input_cost_per_token": 3.41e-8,
+    "input_cost_per_token": 1.7899999999999998e-8,
     "litellm_provider": "openrouter",
     "max_input_tokens": 1049000,
     "max_output_tokens": 943718,
@@ -995,10 +995,10 @@
     "supports_web_search": true
   },
   "glm-5.2:free": {
-    "cache_read_input_token_cost": 3.3000000000000004e-8,
+    "cache_read_input_token_cost": 1.69e-8,
     "cloudprice_model_id": "zhipu-glm-5-2",
     "deprecation_date": "2026-09-25",
-    "input_cost_per_token": 3.41e-8,
+    "input_cost_per_token": 1.7899999999999998e-8,
     "litellm_provider": "openrouter",
     "max_input_tokens": 1049000,
     "max_output_tokens": 943718,
@@ -5161,6 +5161,7 @@
   "minimax-m3": {
     "cache_read_input_token_cost": 6e-8,
     "cloudprice_model_id": "minimax-m3",
+    "deprecation_date": "2026-11-06",
     "input_cost_per_token": 3e-7,
     "litellm_provider": "novita",
     "max_input_tokens": 1048576,
@@ -5320,7 +5321,7 @@
     "max_output_tokens": 131072,
     "max_tokens": 131072,
     "mode": "chat",
-    "output_cost_per_token": 4.6999999999999995e-7,
+    "output_cost_per_token": 1.6e-8,
     "supports_audio_input": true,
     "supports_audio_output": false,
     "supports_function_calling": true,
