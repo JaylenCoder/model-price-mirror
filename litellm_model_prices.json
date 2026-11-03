@@ -1087,7 +1087,7 @@
     "supports_web_search": true
   },
   "glm-5.3-flashx": {
-    "cache_read_input_token_cost": 9e-8,
+    "cache_read_input_token_cost": 7.5e-8,
     "cloudprice_model_id": "zhipu-glm-5-3-flash-x",
     "deprecation_date": "2098-12-31",
     "input_cost_per_token": 3.7e-7,
