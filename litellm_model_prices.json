@@ -3117,6 +3117,7 @@
   "gpt-5.5-cyber-preview": {
     "cache_read_input_token_cost": 0.00000125,
     "cloudprice_model_id": "openai-gpt-5-5-cyber-preview",
+    "deprecation_date": "2027-02-01",
     "input_cost_per_token": 0.0000125,
     "litellm_provider": "openai",
     "mode": "chat",
@@ -5079,7 +5080,7 @@
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "supports_vision": true,
-    "supports_web_search": false
+    "supports_web_search": true
   },
   "mimo-v2.5": {
     "cache_read_input_token_cost": 3.4e-9,
@@ -5130,7 +5131,7 @@
   "minimax-m2": {
     "cache_read_input_token_cost": 3e-8,
     "cloudprice_model_id": "minimax-m2",
-    "deprecation_date": "2026-11-05",
+    "deprecation_date": "2027-03-30",
     "input_cost_per_token": 3e-7,
     "litellm_provider": "novita",
     "max_input_tokens": 1000000,
@@ -5153,7 +5154,7 @@
   "minimax-m2.1": {
     "cache_read_input_token_cost": 3e-8,
     "cloudprice_model_id": "minimax-m2-1",
-    "deprecation_date": "2026-11-05",
+    "deprecation_date": "2027-03-30",
     "input_cost_per_token": 3e-7,
     "litellm_provider": "novita",
     "max_input_tokens": 1000000,
