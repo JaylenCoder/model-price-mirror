@@ -2350,7 +2350,7 @@
   },
   "gpt-4o-transcribe": {
     "cloudprice_model_id": "openai-gpt-4o-transcribe",
-    "deprecation_date": "2026-10-15",
+    "deprecation_date": "2027-02-26",
     "input_cost_per_second": 0.0001,
     "input_cost_per_token": 0.0000025,
     "litellm_provider": "openai",
@@ -3602,6 +3602,7 @@
     "cache_creation_input_token_cost": 0.00000125,
     "cache_read_input_token_cost": 5.0000000000000004e-8,
     "cloudprice_model_id": "openai-gpt-6-1-terra",
+    "deprecation_date": "2027-10-26",
     "input_cost_per_token": 0.000001,
     "litellm_provider": "openai",
     "max_input_tokens": 1050000,
@@ -4238,7 +4239,7 @@
   "gpt-realtime-2.1": {
     "cache_read_input_token_cost": 4.0000000000000003e-7,
     "cloudprice_model_id": "openai-gpt-realtime-2-1",
-    "deprecation_date": "2027-06-25",
+    "deprecation_date": "2027-07-31",
     "input_cost_per_token": 0.000004,
     "litellm_provider": "openai",
     "max_input_tokens": 128000,
@@ -4261,7 +4262,7 @@
   "gpt-realtime-2.1-mini": {
     "cache_read_input_token_cost": 6e-8,
     "cloudprice_model_id": "openai-gpt-realtime-2-1-mini",
-    "deprecation_date": "2027-06-25",
+    "deprecation_date": "2027-07-31",
     "input_cost_per_token": 6e-7,
     "litellm_provider": "openai",
     "max_input_tokens": 128000,
@@ -5413,6 +5414,7 @@
     "cache_creation_input_token_cost": 0.000002,
     "cache_read_input_token_cost": 2.0000000000000002e-7,
     "cloudprice_model_id": "moonshot-kimi-k3-1-pro",
+    "deprecation_date": "2027-11-04",
     "input_cost_per_token": 0.000002,
     "litellm_provider": "moonshot",
     "max_input_tokens": 1048576,
