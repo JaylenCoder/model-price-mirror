@@ -334,7 +334,7 @@
     "cache_creation_input_token_cost": 0.0000125,
     "cache_read_input_token_cost": 2.5e-7,
     "cloudprice_model_id": "anthropic-claude-5-1-mythos",
-    "deprecation_date": "2027-09-01",
+    "deprecation_date": "2027-12-07",
     "input_cost_per_token": 0.00001,
     "litellm_provider": "anthropic",
     "max_input_tokens": 1000000,
@@ -5162,6 +5162,7 @@
   "grok-4.3": {
     "cache_read_input_token_cost": 2.0000000000000002e-7,
     "cloudprice_model_id": "xai-grok-4-3",
+    "deprecation_date": "2027-05-12",
     "input_cost_per_token": 0.00000125,
     "litellm_provider": "xai",
     "max_input_tokens": 1048576,
@@ -5184,6 +5185,7 @@
   "grok-4.3-latest": {
     "cache_read_input_token_cost": 2.0000000000000002e-7,
     "cloudprice_model_id": "xai-grok-4-3",
+    "deprecation_date": "2027-05-12",
     "input_cost_per_token": 0.00000125,
     "litellm_provider": "xai",
     "max_input_tokens": 1048576,
