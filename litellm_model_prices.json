@@ -27,7 +27,7 @@
     "cloudprice_model_id": "anthropic-claude-3-haiku",
     "deprecation_date": "2026-08-23",
     "input_cost_per_token": 2.5e-7,
-    "litellm_provider": "bedrock",
+    "litellm_provider": "vertex_ai-language-models",
     "max_input_tokens": 200000,
     "max_output_tokens": 4096,
     "max_tokens": 4096,
